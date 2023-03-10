@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu__link">Home</a>
+            <a href="about.html" class="cabecalho__menu__link">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
 
@@ -18,14 +23,29 @@
                 Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
             
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.instagram.com/phsorato/">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/PedroSorato">GitHub</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/PedroSorato">
+                    <img src="assets/github.png">
+                    GitHub
+                </a>
+
+                <a class="apresentacao__links__navegacao" href="https://www.instagram.com/phsorato/">
+                    <img src="assets/instagram.png">
+                    Instagram</a>
+
+                <a class="apresentacao__links__navegacao" href="https://www.twitch.tv/notyung_">
+                        <img src="assets/twitch.png">
+                        Twitch</a>
+                
+                
             </div>
         </section>
 
-        <img class="eu" src="img/eu.jpg" alt="Esse sou eu!">
+        <img class="eu" src="assets/eu.jpg" alt="Esse sou eu!">
 
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Pedro Sorato.</p>
+    </footer>
 </body>
 </html>
